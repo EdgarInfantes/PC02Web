@@ -1,9 +1,15 @@
-<template>Pagina Para las peliculas</template>
-
-<style></style>
+<template>
+  <h1>Para Movies</h1>
+</template>
 
 <script>
-defineOptions({
+export default {
   name: "MoviesPage",
-});
+};
 </script>
+
+<style>
+.h1 {
+  color: aliceblue;
+}
+</style>
